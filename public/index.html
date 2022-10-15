@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <h1>Home</h1>
+    <main>
+        <div id="students">
+            <h2> Students </h2>
+        </div>
+        <div id="teachers">
+            <h2> Teachers </h2>
+        </div>
+        <div id="courses">
+            <h2> Courses </h2>
+        </div>
+
+        <form>
+            <h3>Add student</h3>
+            <div id="student-form">
+                <label for="student-name"> Name <input type="text" name="student-name" id="student-name" autocomplete="false"/></label>
+                <label for="student-courses"> Enter courses ids seperated by commas <input type="text" name="student-courses" id="student-courses" autocomplete="false"/></label>
+
+            </div>
+            <button type="submit" id="student-submit-btn">Submit</button>
+        </form>
+        <form>
+            <h3>Add teacher</h3>
+            <div id="teacher-form">
+                <label for="teacher-name"> Name <input type="text" name="teacher-name" id="teacher-name" autocomplete="false"/></label>
+                <label for="teacher-courses"> Enter courses ids seperated by commas <input type="text" name="teacher-courses" id="teacher-courses" autocomplete="false"/></label>
+
+            </div>
+            <button type="submit" id="teacher-submit-btn">Submit</button>
+        </form>
+        <form>
+            <h3>Add course</h3>
+            <div id="course-form">
+                <label for="courseCode"> Course code <input type="text" name="courseCode" id="courseCode" autocomplete="false"/></label>
+                <label for="title"> Title <input type="text" name="title" id="title" autocomplete="false"/></label>
+                <label for="description"> description<input type="text" name="description" id="description" autocomplete="false"/></label>
+
+            </div>
+            <button type="submit" id="course-submit-btn">Submit</button>
+        </form>
+    </main>
+
+    
+    <script src="script.js"></script>     
+</body>
+</html>

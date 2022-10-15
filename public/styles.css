@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#student-form, #teacher-form, #course-form{
+    display: grid;
+    
+}
